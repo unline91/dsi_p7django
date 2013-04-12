@@ -1,0 +1,24 @@
+
+h1 {
+
+    color: red;
+    size: 15px;
+
+}
+
+h3 {
+    color: cyan;
+
+}
+
+p{
+    color : lightsalmon;
+    family : Arial;
+    background: aliceblue;
+}
+
+img#cantante{
+    width: 97%;
+    margin: 10px 5px 5px 10px;
+}
+
