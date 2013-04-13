@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'BD',                      # Or path to database file if using sqlite3.
+        'NAME': 'Base de Datos para Django',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -64,11 +64,11 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/home/angela/dsi/p6_Django/mysite/css/'
+STATIC_URL = '/home/carlos/dsi/p6_Django/mysite/css/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    "/home/angela/dsi/p6_Django/mysite/css",
+    "/home/carlos/dsi/p6_Django/mysite/css",
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -126,8 +126,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'polls',
     'django.contrib.flatpages',
+	'django.contrib.comments',
     'lettuce.django',
-    'django_nose', #add
+    #'django_nose', #add
      #add
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
